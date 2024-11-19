@@ -1,6 +1,6 @@
 package com.loiane.cursojava.aula24;
 
-public class Exer06 {
+public class Exer06Contato {
     public static void main(String[] args) {
 
         Contato contato1 = new Contato();

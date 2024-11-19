@@ -1,6 +1,6 @@
 package com.loiane.cursojava.aula24;
 
-public class Exer05 {
+public class Exer05ContaCorrente {
     public static void main(String[] args) {
 
         ContaCorrente conta = new ContaCorrente();

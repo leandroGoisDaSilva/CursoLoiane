@@ -1,18 +1,12 @@
 package com.loiane.cursojava.aula24;
 
-import java.util.Date;
-
-public class Exer04 {
+public class Exer02Livro {
     public static void main(String[] args) {
-        LivroDeBiblioteca livro = new LivroDeBiblioteca();
+        Livro livro = new Livro();
 
         livro.nome = "Mastering ExtJS";
         livro.autor = "Loiane Groner";
         livro.anoLancamento = 2015;
-
-        livro.emprestado = true;
-        livro.dataEntrega = new Date();
-        livro.emprestadoA = "Loiane";
 
         System.out.println("Nome do livro = " + livro.nome);
     }
