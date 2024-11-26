@@ -1,12 +1,10 @@
-package com.loiane.cursojava.aula24;
+package com.loiane.cursojava.aula24.livro;
 
-public class LivroLivraria {
+public class Livro {
 
     String nome;
     String autor;
     int qtdPaginas;
     int anoLancamento;
     String isbn;
-    double preco;
-
 }

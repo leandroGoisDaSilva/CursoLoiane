@@ -29,4 +29,8 @@ public class Professor {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public String obterInfo(){
+        return "Professor =" + this.nome;
+    }
 }

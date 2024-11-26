@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula24;
+package com.loiane.cursojava.aula24.contato;
 
 public class Contato {
 

@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula33.labs;
+package com.loiane.cursojava.aula33.labs.lampada;
 
 public class Lampada {
 
@@ -101,9 +101,11 @@ public class Lampada {
     }
 
     public void ligar(){
+
         setLigada(true);
     }
     public void desligar(){
+
         setLigada(false);
     }
 

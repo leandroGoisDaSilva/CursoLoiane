@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula33.labs;
+package com.loiane.cursojava.aula33.labs.lampada;
 
 public class Exerc01 {
     public static void main(String[] args) {

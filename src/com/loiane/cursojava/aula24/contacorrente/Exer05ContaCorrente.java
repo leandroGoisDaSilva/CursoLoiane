@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula24;
+package com.loiane.cursojava.aula24.contacorrente;
 
 public class Exer05ContaCorrente {
     public static void main(String[] args) {

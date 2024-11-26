@@ -3,7 +3,7 @@ package com.loiane.cursojava.aula36.labs;
 public class Aluno {
     private String nome;
     private String matricula;
-    private String notas;
+    private double[] notas;
 
 
     public String getNome() {
@@ -22,11 +22,39 @@ public class Aluno {
         this.matricula = matricula;
     }
 
-    public String getNotas() {
+    public double[] getNotas() {
         return notas;
     }
 
-    public void setNotas(String notas) {
+    public void setNotas(double[] notas) {
         this.notas = notas;
     }
+    public String obterInfo(){
+
+        String info = "Nome Aluno = " + this.nome + ";";
+        info += "Matricula = " + this.matricula + ";";
+        info += "Notas: ";
+        int soma = 0;
+        for (double nota : notas){
+            soma += nota;
+            info += nota + " ";
+        }
+        double media = soma/4;
+        info += "\n" + "Média = " + media + " -- ";
+        if(media >= 7){
+            info += "Aprovado";
+        } else {
+            info += "Reprovado";
+        }
+        return info;
+    }
+
+    public double obterMedia(){
+        double soma = 0;
+        for (double nota : this.notas){
+            soma += nota;
+        }
+        return soma/4;
+    }
 }
+

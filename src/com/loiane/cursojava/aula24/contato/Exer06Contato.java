@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula24;
+package com.loiane.cursojava.aula24.contato;
 
 public class Exer06Contato {
     public static void main(String[] args) {
